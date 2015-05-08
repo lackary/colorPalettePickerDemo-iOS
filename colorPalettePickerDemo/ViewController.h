@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ParentPaletteView.h"
+
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet ParentPaletteView *parentPaletteView;
 
 @end
 

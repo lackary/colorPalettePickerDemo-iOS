@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84AAD7B81AF0933300383908 /* TargetImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAD7B71AF0933300383908 /* TargetImageView.m */; };
 		84BE45D61AE9E0A500AFAB71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45D51AE9E0A500AFAB71 /* main.m */; };
 		84BE45D91AE9E0A500AFAB71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45D81AE9E0A500AFAB71 /* AppDelegate.m */; };
 		84BE45DC1AE9E0A500AFAB71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45DB1AE9E0A500AFAB71 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		84BE45E11AE9E0A500AFAB71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BE45E01AE9E0A500AFAB71 /* Images.xcassets */; };
 		84BE45E41AE9E0A500AFAB71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BE45E21AE9E0A500AFAB71 /* LaunchScreen.xib */; };
 		84BE45F01AE9E0A500AFAB71 /* colorPalettePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45EF1AE9E0A500AFAB71 /* colorPalettePickerDemoTests.m */; };
+		84BE45FE1AE9E5C600AFAB71 /* ParentPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE45FD1AE9E5C600AFAB71 /* ParentPaletteView.m */; };
+		84BE46011AE9EC2700AFAB71 /* PickTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE46001AE9EC2700AFAB71 /* PickTargetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84AAD7B61AF0933300383908 /* TargetImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetImageView.h; sourceTree = "<group>"; };
+		84AAD7B71AF0933300383908 /* TargetImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetImageView.m; sourceTree = "<group>"; };
 		84BE45D01AE9E0A500AFAB71 /* colorPalettePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorPalettePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE45D41AE9E0A500AFAB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BE45D51AE9E0A500AFAB71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,10 @@
 		84BE45E91AE9E0A500AFAB71 /* colorPalettePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorPalettePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE45EE1AE9E0A500AFAB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BE45EF1AE9E0A500AFAB71 /* colorPalettePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorPalettePickerDemoTests.m; sourceTree = "<group>"; };
+		84BE45FC1AE9E5C600AFAB71 /* ParentPaletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPaletteView.h; sourceTree = "<group>"; };
+		84BE45FD1AE9E5C600AFAB71 /* ParentPaletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPaletteView.m; sourceTree = "<group>"; };
+		84BE45FF1AE9EC2700AFAB71 /* PickTargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickTargetView.h; sourceTree = "<group>"; };
+		84BE46001AE9EC2700AFAB71 /* PickTargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickTargetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				84BE45E01AE9E0A500AFAB71 /* Images.xcassets */,
 				84BE45E21AE9E0A500AFAB71 /* LaunchScreen.xib */,
 				84BE45D31AE9E0A500AFAB71 /* Supporting Files */,
+				84BE45FC1AE9E5C600AFAB71 /* ParentPaletteView.h */,
+				84BE45FD1AE9E5C600AFAB71 /* ParentPaletteView.m */,
+				84BE45FF1AE9EC2700AFAB71 /* PickTargetView.h */,
+				84BE46001AE9EC2700AFAB71 /* PickTargetView.m */,
+				84AAD7B61AF0933300383908 /* TargetImageView.h */,
+				84AAD7B71AF0933300383908 /* TargetImageView.m */,
 			);
 			path = colorPalettePickerDemo;
 			sourceTree = "<group>";
@@ -221,6 +236,9 @@
 			files = (
 				84BE45DC1AE9E0A500AFAB71 /* ViewController.m in Sources */,
 				84BE45D91AE9E0A500AFAB71 /* AppDelegate.m in Sources */,
+				84BE45FE1AE9E5C600AFAB71 /* ParentPaletteView.m in Sources */,
+				84AAD7B81AF0933300383908 /* TargetImageView.m in Sources */,
+				84BE46011AE9EC2700AFAB71 /* PickTargetView.m in Sources */,
 				84BE45D61AE9E0A500AFAB71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				84BE45F51AE9E0A500AFAB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BE45F61AE9E0A500AFAB71 /* Build configuration list for PBXNativeTarget "colorPalettePickerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				84BE45F81AE9E0A500AFAB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
